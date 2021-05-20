@@ -1,0 +1,411 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#headerIndex {
+
+    background: url('../../img/biomillbkg01.png');
+    height: 100vh;
+    width: 100%;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+footer {
+
+    height: 10vh;
+    background: #EDEDED;
+}
+
+.jumbotron {
+
+    background: transparent !important;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15vh;    
+
+}
+
+.lead {
+
+    font-size: 2rem !important;
+    width: 55vw;
+    font-style: italic;
+    
+}
+
+.display-4 {
+
+    font-size: 6rem !important;
+    width: 60vw;
+    font-weight: 600 !important;
+    margin: 5vh 0 5vh 0;
+    color: #091f61;
+}
+
+.jumbotron h3 {
+
+    font-size: 3rem !important;
+    width: 60vw;
+    color: #01a5fe;
+    margin: 0 0 0 4vw;
+}
+
+.jumbotron .btn {
+
+    margin-top: 5vh;
+    background-color: #091f61;
+    border-color: #091f61;
+}
+
+
+
+
+/*effect index*/
+
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+} 
+  
+.ml2 .letter {
+    display: inline-block;
+    
+}
+
+
+
+
+@media (max-width: 576px) {
+    header {
+
+        background: url('../../img/bkg450.png'); 
+        background-size: cover;    
+    }
+
+    .lead {
+
+    font-size: 1.5rem !important;
+    margin-top: -10vh;
+    width: 80vw;
+    }
+
+    .display-4 {
+
+        font-size: 4rem !important;        
+        margin: 3vh 0 3vh 0;
+    }
+    
+    .jumbotron h3 {
+    
+        font-size: 2.5rem !important;
+        width: 60vw;
+    }
+}
+
+
+
+
+
+
+
+/*---------------------------------nosotros---------------------------------*/
+
+.bannerUs {
+
+    margin-top: -50px;
+    background: url('../../img/biomill-nosotros.png');
+    height: 600px;
+    
+    
+   
+}
+
+.tittleNos {
+
+    margin: 25vh 0 0 0;
+    font-family: 'Montserrat', sans-serif;   
+    color: #091f61;
+    font-size: 3.8rem !important;
+    font-weight: 600;
+}
+
+.eqnosotros {
+
+    background: url('../../img/bkgsec01.png');
+    height: 100vh;
+    width: 100%;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tittleSec {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 5vh 0 5vh 0;
+    color: #01B7FE;
+    font-size: 2.5rem !important;
+}
+
+.tittleSec span {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.card {
+
+    border: none !important;
+    margin: 0px 10px 0px 50px !important; /*no lo toma ver proq*/
+    background-color: transparent!important;
+}
+
+
+.card-title {
+
+    margin: 0 0 3vh 0 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem !important;
+}
+
+
+
+.card-text {
+
+    color: #01B7FE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem !important;
+}
+
+
+.custom-shape-divider-top-1621543539 {
+    position: absolute;
+    top: -10;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621543539 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1621543539 .shape-fill {
+    fill: #EDEDED;
+}
+
+
+
+
+
+
+
+ /* segunda sección de nosotros*/
+
+.histnos {
+
+    background: url('../../img/bkgsec02.png');
+    height: auto;
+    width: 100%;   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tittleSec02 {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 9vh 0 5vh 0;
+    color: #01B7FE;
+    font-size: 2.5rem !important;
+}
+
+/*timeline*/
+
+/* Timeline holder */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+    
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: rgb(241, 241, 241);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #01B7FE;
+    left: 8px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.timeline h2 {
+
+    color: #01B7FE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.timeline {
+
+    margin: 5vh 0 5vh 0 !important;
+    
+}
+
+.listTecno {
+
+    margin-left: 1vw;
+    font-size: 1.2rem;
+}
+.text-small {
+
+    font-size: 1.2rem;
+}
+
+/*text effect*/
+
+.ml14 {
+    font-weight: 200;
+    font-size: 3.2em;
+  }
+  
+.ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+  
+.ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+}
+  
+.ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+    
+}
+
+.idstrong {    
+    font-weight: 600 !important;
+}
+
+
+
+/*b*/
+.ml14b {
+    font-weight: 200;
+    font-size: 3.2em;
+  }
+  
+.ml14b .text-wrapperb {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+  
+.ml14b .lineb {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+}
+  
+.ml14b .letterb {
+    display: inline-block;
+    line-height: 1em;
+    
+}
+
+.idstrongb {    
+    font-weight: 600 !important;
+}
+
+
+
+/*Contacto*/
+
+
+
+
+
+
+.bannerCon {
+
+    margin-top: -50px;
+    background: url('../../img/biomill-contacto.png');
+    height: 600px;
+    
+   
+}
+
+.tittleNos {
+
+    margin: 25vh 0 0 0;
+    font-family: 'Montserrat', sans-serif;   
+    color: #091f61;
+    font-size: 3.8rem !important;
+    font-weight: 600;
+}
