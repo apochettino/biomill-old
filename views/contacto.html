@@ -20,6 +20,10 @@
     <!--Anim AOS-->
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+        <!-- Custom Fonts -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
 </head>
 
 <body>
@@ -62,12 +66,61 @@
         
     </section>
 
-    <section class="formContact">
+    
 
 
-    </section>
+    <section class="contactus-one formContact" id="contactus"><!-- Section id-->
+      <div class="container">
 
-  
+        <div class="row">
+          <div class="col-12">
+            <h2 class="ml14 text-center">
+                <span class="text-wrapper tittleSec02">
+                  <span class="letters">Contactanos</span>
+                  <span class="line"></span>
+                </span>
+              </h2>
+          </div>
+        </div>
+          <div class="row contact-bkg shadow-lg p-3 mb-5 rounded">
+            
+            <div class=" col-md-6 col-sm-6">
+                <div class="contact-block">
+                      <div class="dart-headingstyle-one">  <!--Style 1-->
+                        <h2 class="dart-heading">Envianos tu mensaje</h2>
+                      </div>
+                      
+                      <div class="contact-form"><!-- contact form -->
+                          <form class="row" action="send_email.php" id="contact" name="contact" method="post" >
+                            <div class="form-group col-md-6">
+                              <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Tu nombre" required >
+                            </div>
+                            <div class="form-group col-md-6">
+                              <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Email" required >
+                            </div>
+                            <div class="form-group col-md-12">
+                              <input type="text" class="form-control" name="InputWeb" id="InputWeb" placeholder="Subjet" >
+                            </div>
+                            <div class="form-group col-md-12">
+                              <textarea class="form-control" name="InputMessage" id="InputMessage" rows="4" placeholder="Message" required  ></textarea>
+                            </div>
+                            <div class="col-md-12">
+                            <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                          </form>
+                      </div>                   
+              </div>
+            </div>  
+                <div class="col-md-6 col-sm-6">
+                  <div class="">                  
+                      <img src="../img/recurso8.png" alt="">
+                  </div>
+                </div>              
+          </div>            
+      </div>
+    </section> 
+
+
 <footer>  
 
 

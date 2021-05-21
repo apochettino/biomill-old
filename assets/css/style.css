@@ -425,7 +425,25 @@ li.timeline-item::before {
     font-weight: 600;
 }
 
+.textWork {
 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    margin: 4vh 0 0 0;
+}
+
+.firstSection {
+
+    /*background-color: #EDEDED;*/
+    background: url('../../img/bkgsec01.png');
+    height: 90vh;
+
+}
+
+.spawork {
+
+    margin: 8vh 0 9vh 0;
+}
 
 /*Contacto*/
 
@@ -450,4 +468,73 @@ li.timeline-item::before {
     color: #091f61;
     font-size: 3.8rem !important;
     font-weight: 600;
+}
+
+.formContact {
+
+    background: url('../../img/contacbkg.png');
+    height: 100vh;
+}
+
+     /*---contact form---*/  
+
+     .contactus-one .contact-form .form-control {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+        background-color: transparent;
+        color: #fff;
+        height: 50px;
+    }
+    .contactus-one .contact-form .form-control {
+        border-bottom: 1px solid #ccc;
+        box-shadow: none;
+    }
+    .contact-info > div > p {
+        margin-bottom: 10px;
+    }
+    .contactus-one .contact-info p i {
+        margin-right: 15px;
+        color: #ee2b63;
+    }
+    /*
+    .map {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(0%);
+    }
+*/
+.contactus-one .dart-headingstyle-one .dart-heading:after{
+    left:15px;
+}
+
+
+
+.dart-heading {
+
+    color: #01B7FE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 3vh 0 3vh 0;
+}
+
+
+textarea {
+
+    height: 20vh !important;
+}
+
+.btn-primary{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #091f61 !important;
+    border-color: #091f61 !important;
+
+}
+
+.form-group {
+
+    margin: 2vh 0 2vh 0;
+    font-family: 'Montserrat', sans-serif;
 }
