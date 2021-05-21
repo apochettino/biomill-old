@@ -161,6 +161,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
+    margin-top: -100px;
 }
 
 .tittleSec {
@@ -414,7 +415,7 @@ li.timeline-item::before {
     height: 600px;
     
    
-}*/
+}*//*
 
 .tittleNos {
 
@@ -424,7 +425,7 @@ li.timeline-item::before {
     font-size: 3.8rem !important;
     font-weight: 600;
 }
-
+*/
 .textWork {
 
     font-family: 'Montserrat', sans-serif;
@@ -437,6 +438,7 @@ li.timeline-item::before {
     /*background-color: #EDEDED;*/
     background: url('../../img/bkgsec01.png');
     height: 90vh;
+    margin: -100px 0 0 0 ;
 
 }
 
@@ -460,7 +462,7 @@ li.timeline-item::before {
     
    
 }*/
-
+/*
 .tittleNos {
 
     margin: 25vh 0 0 0;
@@ -469,11 +471,12 @@ li.timeline-item::before {
     font-size: 3.8rem !important;
     font-weight: 600;
 }
-
+*/
 .formContact {
 
     background: url('../../img/contacbkg.png');
     height: 100vh;
+    margin-top: -100px;
 }
 
      /*---contact form---*/  
