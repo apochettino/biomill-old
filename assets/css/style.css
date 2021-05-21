@@ -50,15 +50,15 @@ footer {
 
 .lead {
 
-    font-size: 2rem !important;
-    max-width: 55vw;
+    font-size: 1.7rem !important;
+    max-width: 50vw;
     font-style: italic;
     
 }
 
 .display-4 {
 
-    font-size: 6rem !important;
+    font-size: 4.5rem !important;
     width: 60vw;
     font-weight: 600 !important;
     margin: 5vh 0 5vh 0;
@@ -67,7 +67,7 @@ footer {
 
 .jumbotron h3 {
 
-    font-size: 3rem !important;
+    font-size: 2.5rem !important;
     width: 60vw;
     color: #01a5fe;
     margin: 0 0 0 4vw;
