@@ -9,6 +9,21 @@ body {
     padding: 0;
 }
 
+.nav-item {
+
+    margin: 0 1vw 0 1vw;
+}
+.navbar-nav {
+
+    margin-right: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem !important;
+}
+
+nav img {
+    margin-left: 3vw;
+}
+
 #headerIndex {
 
     background: url('../../img/biomillbkg01.png');
