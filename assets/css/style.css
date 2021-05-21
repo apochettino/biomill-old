@@ -437,6 +437,13 @@ li.timeline-item::before {
     margin: 4vh 0 0 0;
 }
 
+
+.textWork2 {
+
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
 .firstSection {
 
     /*background-color: #EDEDED;*/
